@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Pet Store</title>
+  <link rel="manifest" href="/manifest.json">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="PetStore">
+  <link rel="apple-touch-icon" href="/img/icons/icon-72x72.png" sizes="72x72">
+  <link rel="apple-touch-icon" href="/img/icons/icon-96x96.png" sizes="96x96">
+  <link rel="apple-touch-icon" href="/img/icons/icon-128x128.png" sizes="128x128">
+  <link rel="apple-touch-icon" href="/img/icons/icon-144x144.png" sizes="144x144">
+  <link rel="apple-touch-icon" href="/img/icons/icon-152x152.png" sizes="152x152">
+  <link rel="apple-touch-icon" href="/img/icons/icon-192x192.png" sizes="192x192">
+  <link rel="apple-touch-icon" href="/img/icons/icon-384x384.png" sizes="384x384">
+  <link rel="apple-touch-icon" href="/img/icons/icon-512x512.png" sizes="512x512">
+  <meta name="msapplication-TileImage" content="/img/icons/icon-144x144.png">
+  <meta name="msapplication-TileColor" content="#fff">
+  <meta name="theme-color" content="#3f51b5">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="css/mdb.min.css" rel="stylesheet">
+  <!-- Your custom styles (optional) -->
+  <link href="css/style.css" rel="stylesheet"> 
+  <link href="css/custom.css" rel="stylesheet">
+</head>
+
+<body>
+  <!--Main Navigation-->
+<header>
+
+  <nav class="navbar navbar-expand-lg navbar-dark blue">
+    <a class="navbar-brand" href="#"><strong>Petstore</strong></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="services.html">Services</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="bookAppointment.html">Book an Appointment</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="aboutUs.html"> <span class="sr-only">(current)</span>About Us</a>
+        </li>
+      </ul>
+      <ul class="navbar-nav nav-flex-icons">
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.facebook.com/petstore.clinic" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</header>
+<div class="container">
+    <div class="row">
+        <div class="col-md-8 col-sm-6">
+            <div class="about-title clearfix">
+                <h1><span>Book an Appointment</span></h1><h3> for House Call</h3>
+                <h4>Or Visit our store anytime</h4>
+                <p>We are always glad to address any questions that you might come up with. Please be sure to get in touch with us should you want to inquire us about anything! We are just a call away.</p>
+                <p>If you feel like your pet's health and wellbeing is at risk, losing any time is simply dangerous! Book a visit with one of our veterinarian</p>
+                <form class="p-5">
+
+                    <p class="h4 mb-4 text-center">Please provide your details</p>
+                    <label for="Name">Name</label>
+                    <input type="text" id="Name" class="form-control mb-4" placeholder="Name">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" class="form-control mb-4" placeholder="Email">
+                    <label for="phoneNo">Phone No</label>
+                    <input type="text" id="PhoneNo" class="form-control mb-4" placeholder="Cell Phone No.">
+                    <label for="address">Address</label>
+                    <input type="text" id="address" class="form-control mb-4" placeholder="Address">
+
+                    <label for="defaultSelect">Subject</label>
+                    <select id="defaultSelect" class="browser-default custom-select mb-4">
+                        <option value="" disabled="">Choose option</option>
+                        <option value="1" selected="">Pet is Sick</option>
+                        <option value="2">Schedule Vaccination</option>
+                        <option value="3">Regular Visit</option>
+                        <option value="4">Visit to Store</option>
+                    </select>
+                    <label for="message">Brief Description/Message</label>
+                    <textarea class="form-control rounded-0" id="exampleFormControlTextarea2" rows="3" placeholder="Message"></textarea>
+
+                    <div class="custom-control custom-checkbox mb-4">
+                        <input type="checkbox" class="custom-control-input" id="defaultContactFormCopy">
+                        <label class="custom-control-label" for="defaultContactFormCopy">Send me a copy of this message</label>
+                    </div>
+
+                    <button class="btn btn-info btn-block" type="submit">Send</button>
+                </form>
+                <br/>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer class="page-footer font-small blue">
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2019 Copyright:
+    <a href="https://www.petstore.com"> Petstore.com</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+  <!-- SCRIPTS -->
+  <!-- JQuery -->
+  <script type="text/javascript" src="js/jquery-3.4.0.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+</body>
+
+</html>
